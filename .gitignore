@@ -1,0 +1,34 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Secrets & credentials (NEVER commit these) ────────
+config/.env
+config/gmail_credentials.json
+config/gmail_token.json
+*.pem
+*.key
+
+# ── IDE / Editor ───────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS artifacts ───────────────────────────────────────
+Thumbs.db
+.DS_Store
+
+# ── Data (review queue may contain PII) ───────────────
+data/review_queue/*.json
